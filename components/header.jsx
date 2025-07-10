@@ -13,8 +13,7 @@ const Header = async () => {
     <header className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b">
       <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="/">
-          <h1 class="text-2xl font-extrabold font-sans">
-            FINBUDDY          </h1>
+          <h1 className="text-2xl font-extrabold font-sans">FINBUDDY </h1>
         </Link>
 
         {/* Navigation Links - Different for signed in/out users */}
@@ -24,10 +23,10 @@ const Header = async () => {
               Features
             </a>
             <a
-              href="#testimonials"
+              href="#working"
               className="text-gray-600 hover:text-blue-600"
             >
-              Testimonials
+              Working
             </a>
           </SignedOut>
         </div>
